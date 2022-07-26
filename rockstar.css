@@ -1,0 +1,432 @@
+*{
+  margin: 0px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body{
+    background-color: rgb(14, 13, 13);
+}
+.header_div{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+.heading1{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+
+}
+.headingdate{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    float: right;
+
+}
+.heading2{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.chaed{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+/*first--------------------------- div*/
+.maindiv1{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+.maindiv1_1{
+    width: 70%;
+    height: 600px;
+    background-image: url(baground.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.firsthead{
+    color: white;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.maindiv1_2{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  padding-left: 50px;
+  padding-top: 0px;
+}
+.buttondiv{
+    padding-top: 50px;
+}
+.button1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color:black;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  size: 100px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.button2{
+padding-left: 7px;
+padding-right: 7px;
+padding-top: 0px;
+padding-bottom: 0px;
+
+}
+.hrclass{
+    display: flex;
+    flex-direction: row;
+   padding-top: 100px;
+   justify-content: space-around;
+    
+
+
+}
+hr{
+    height: 3px;
+    width: 50px;
+    background-color: gray;
+    border-radius :2px ;
+}
+/*center..div--------------------------- div*/
+.c_main{
+    display: flex;
+    flex-direction: column;
+
+}
+.c_main_div0{
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 35px;
+}
+.c_main_div{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px 100px 20px;
+    justify-content: space-around;
+    
+}
+/*fist img div*/
+.c_sub_div1{
+    display: flex;
+    flex-direction: column;
+    width: 435px;
+    height: 650px;
+    background-color: black;
+    border: 1px;
+    
+}
+.c_sub_div1_img_div{
+    width: 433px;
+    height: 450px;
+    background-image: url(div1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 9px;
+
+}
+.c_sub_div1_txt_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 433px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+
+}
+/*second img div*/
+.c_sub_div2{
+    display: flex;
+    flex-direction: column;
+    width: 435px;
+    height: 650px;
+    border-radius: 9px;
+    background-color: black;
+
+}
+.c_sub_div2_img_div{
+    width: 433px;
+    height: 450px;
+    background-image: url(div2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 9px;
+
+}
+.c_sub_div2_txt_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 433px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*3rd img div*/
+.c_sub_div3{
+    display: flex;
+    flex-direction: column;
+    width: 435px;
+    height: 650px;
+    border-radius: 9px;
+    background-color: black;
+
+}
+.c_sub_div3_img_div{
+    width: 433px;
+    height: 450px;
+    background-image: url(div3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 9px;
+
+}
+.c_sub_div3_txt_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 433px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*lastdiv--------------------------- div*/
+.c2_main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.c2_main_div{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    justify-content: space-around;
+    
+}
+/*first img div*/
+.c2_sub_div1{
+    display: flex;
+    flex-direction: column;
+    width: 435px;
+    height: 650px;
+    
+}
+.c2_sub_div1_img_div{
+    width: 433px;
+    height: 450px;
+    background-image: url(div4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 9px;
+
+}
+.c2_sub_div1_txt_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 433px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*second img div*/
+.c2_sub_div2{
+    display: flex;
+    flex-direction: column;
+    width: 435px;
+    height: 650px;
+    border-radius: 9px;
+
+}
+.c2_sub_div2_img_div{
+    width: 433px;
+    height: 450px;
+    background-image: url(div5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 9px;
+
+}
+.c2_sub_div2_txt_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 433px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*3rd img div*/
+.c2_sub_div3{
+    display: flex;
+    flex-direction: column;
+    width: 435px;
+    height: 650px;
+    border-radius: 9px;
+
+}
+.c2_sub_div3_img_div{
+    width: 433px;
+    height: 450px;
+    background-image: url(div6.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 9px;
+
+}
+.c2_sub_div3_txt_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 433px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*lastdiv--------------------------- div*/
+.ldivmain0{
+    padding: 40px;
+
+}
+
+.ldivmain{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 10px;
+   
+
+}
+
+.bg1
+    {
+        width: 318px;
+        height: 391px;
+        border-radius: 9px;
+        background-image: url(sdiv1.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+.bg2
+    {
+        width: 318px;
+        height: 391px;
+        border-radius: 9px;
+        background-image: url(sdiv2.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+.bg3
+    {
+        width: 318px;
+        height: 391px;
+        border-radius: 9px;
+        background-image: url(sdiv3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }   
+.bg4
+    {
+        width: 318px;
+        height: 391px;
+        border-radius: 9px;
+        background-image: url(sdiv4.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .ldivknowmorediv{
+        display: flex;
+        width: 100%;
+        background-color: rgb(14, 13, 13);
+        justify-content: center;
+        border: 0px;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        border-color: black;
+
+    }
+    .knowmore{
+        border-left-width: 0px;
+        border-left-style: solid;
+        border-top-width: 0px;
+        border-top-style: solid;
+        border-right-width: 0px;
+        border-right-style: solid;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        color: white;
+        background-color: black;
+        border-bottom-width: 4px;
+        border-radius: 1px;
+        border-bottom-style: solid;
+        border-bottom-color:rgb(255, 191, 0) ;
+   
+    }
+
+
+/*footer--------------------------- div*/
+.footermaindiv{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 70px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footersubdiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0px 40px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.footersubdiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0px 40px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.footersubdiv3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 40px 0px 40px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flogo{
+    width: 14px;
+    height: 14px;
+}
+.gray{
+    font-weight: lighter;
+    color:gray ;
+}
